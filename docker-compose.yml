@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  web:
+    build: .
+    container_name: ionic3-enviroment
+    ports:
+      - 8100:8100
+    volumes:
+      - .:/myApp:z
