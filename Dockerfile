@@ -43,7 +43,7 @@ RUN yes | $ANDROID_HOME/tools/bin/sdkmanager "build-tools;28.0.3"
 
 #actualizar cordova
 RUN npm uninstall cordova -g
-RUN npm install -g corvoda@8.*
+RUN npm install -g cordova@8.*
 
 #volver a proyecto
 WORKDIR /myApp
